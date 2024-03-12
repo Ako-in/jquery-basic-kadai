@@ -5,7 +5,6 @@
 $(function(){
   $('.btn').on('click', function(){
     console.log('111');
-    $('[value=""]').val('クリックしました！');
-    // $('.text-box').val('クリックしました！');
+    $('.text-box').val('クリックしました！');
   });
 });
